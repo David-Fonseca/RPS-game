@@ -1,0 +1,104 @@
+html, body {
+    margin: 0;
+    background-color: rgb(255, 216, 255);
+    display:flex;
+    flex-direction: column;
+    flex:auto;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    gap:40px;
+    flex-direction: column;
+    flex:auto;
+    justify-content: center;
+    align-items: center;
+    background-color: azure;
+    padding:40px;
+    border-radius:15px;
+    border-style: ridge;
+    border-color: black;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+body{
+    display: flex;
+    flex-direction: column;
+    flex:auto;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.heading{
+    
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+
+}
+.title{
+    display: flex;
+    gap: 15px;
+}
+h1{
+    margin: 0;
+    display: inline;
+    font-size: 50px;
+}
+.choices{
+    border-style: groove;
+    border-color: grey;
+    display: flex;
+    padding: 20px;
+    
+    border-radius: 15px;
+    flex: auto;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+.choices div{ 
+
+    border-radius: 50%;}
+img{
+    width:180px;
+    height: auto;
+
+}
+
+.img-big{
+    width:200px;
+    height: auto;
+}
+.res{
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+button{
+    background-color: rgb(255, 216, 255);
+    border-radius: 10px;
+    padding:5px;
+    margin:0;
+}
+.game-stat{
+    text-align: center;
+    margin:5px;
+}
+.enemy-choice, .result-text{
+    border-style: groove;
+    border-color: grey;
+    border-radius: 15px;
+    width:180px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex:auto;
+    text-align: center;
+}
